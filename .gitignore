@@ -19,3 +19,9 @@ bill/migrations
 
 appointments/__pycache__
 appointments/migrations
+
+home/__pycache__
+home/migrations
+
+profiles/__pycache__
+profiles/migrations

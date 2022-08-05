@@ -18,14 +18,27 @@ from django.urls import path, include
 from loginmodule.views import logout, login
 
 urlpatterns = [
+    # path('admin/', admin.site.urls),
+    # path('loginmodule/', include('loginmodule.urls')),
+    # path('login/', login),
+    # path('logout/', logout),
+    # path('', include('home.urls')),
+    # path('home/', include('home.urls')),
+    # path('case/', include('case.urls')),
+    # path('bill/', include('bill.urls')),
+    # path('reports/', include('reports.urls')),
+    # path('appointments/', include('appointments.urls')),
+
+    #
     path('admin/', admin.site.urls),
-    path('loginmodule/', include('loginmodule.urls')),
-    path('login/', login),
-    path('logout/', logout),
     path('', include('home.urls')),
     path('home/', include('home.urls')),
-    path('case/', include('case.urls')),
-    path('bill/', include('bill.urls')),
-    path('reports/', include('reports.urls')),
+    path('profile/', include('profiles.urls')),
     path('appointments/', include('appointments.urls')),
+    path('case/', include('case.urls')),
+    path('reports/', include('reports.urls')),
+    path('bill/', include('bill.urls')),
+	path('login/', login),
+    path('logout/', logout),
+    path('loginmodule/', include('loginmodule.urls'))
 ]
