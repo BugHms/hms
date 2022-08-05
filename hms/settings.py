@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'loginmodule',
     'home',
     'case',
+    'bill',
 ]
 
 MIDDLEWARE = [
