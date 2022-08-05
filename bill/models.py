@@ -1,7 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 from case.models import case
-from stock.models import items
+from stocks.models import items
 
 # Create your models here.
 class bill(models.Model):

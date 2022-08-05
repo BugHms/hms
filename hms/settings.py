@@ -41,6 +41,9 @@ INSTALLED_APPS = [
     'home',
     'case',
     'bill',
+    'stocks',
+    'reports',
+    'appointments',
 ]
 
 MIDDLEWARE = [

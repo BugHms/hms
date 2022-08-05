@@ -3,4 +3,19 @@
 hms/__pycache__/
 
 loginmodule/migrations
-loginmodule/__pycache__
+loginmodule/__pycache__/
+
+stocks/migrations
+stocks/__pycache__
+
+reports/migrations
+reports/__pycache__
+
+case/__pycache__
+case/migrations
+
+bill/__pycache__
+bill/migrations
+
+appointments/__pycache__
+appointments/migrations

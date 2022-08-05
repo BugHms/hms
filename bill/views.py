@@ -4,7 +4,7 @@ from django.template.context_processors import csrf
 from django.http import HttpResponseRedirect
 from django.contrib.auth.models import User, Group
 from .models import bill
-from stock.models import items, stock
+from stocks.models import items, stock
 from datetime import datetime
 from home.context_processors import hasGroup
 from case.models import case

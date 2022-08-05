@@ -8,7 +8,7 @@ from datetime import datetime
 from home.context_processors import hasGroup
 from appointments.models import Appointment
 from django.contrib import messages
-from stock.models import items
+from stocks.models import items
 from bill.models import bill
 # Create your views here.
 
@@ -94,4 +94,3 @@ def delete(request, id):
         return HttpResponseRedirect('/case')
     messages.add_message(request, messages.WARNING, 'Access Denied.')
     return HttpResponseRedirect('/home')
-    
