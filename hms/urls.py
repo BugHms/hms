@@ -23,4 +23,5 @@ urlpatterns = [
     path('login/', login),
     path('logout/', logout),
     path('', include('home.urls')),
+    path('case/', include('case.urls')),
 ]
