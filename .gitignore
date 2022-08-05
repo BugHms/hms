@@ -1,0 +1,6 @@
+.env/
+
+hms/__pycache__/
+
+loginmodule/migrations
+loginmodule/__pycache__
