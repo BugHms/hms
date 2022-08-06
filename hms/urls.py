@@ -44,8 +44,9 @@ urlpatterns = [
 	path('login/', login),
     path('logout/', logout),
     path('loginmodule/', include('loginmodule.urls'))
-]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-# urlpatterns += 
+]
+# ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+# urlpatterns += urlpatterns
 
 
 
