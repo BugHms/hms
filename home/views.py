@@ -13,4 +13,4 @@ def home(request):
     # json_data = response.json()
     # # print(json_data)
     messages.add_message(request, messages.INFO, 'Welcome to The Hospital Portal.')
-    return render(request, 'home/base.html', {'greetings': json_data})
+    return render(request, 'home/base.html',)# {'greetings': json_data}
